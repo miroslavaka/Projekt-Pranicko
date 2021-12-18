@@ -676,7 +676,9 @@ div.pickup__code {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #184617;
+    /*background-color: #184617;*/
+    background-image: url(./assets/backgrounds/tree.jpg);
+    /*background: rgba(94, 236, 81, 0.03);*/
 }
 
 .background--red {
@@ -748,6 +750,7 @@ div.pickup__code {
     z-index: 3;
     transform-origin: left;
     background-color: #de0000;
+    /*background-color: var(--color-bg2);*/
 }
 
 .card--red .cover {

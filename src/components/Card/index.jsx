@@ -64,27 +64,28 @@ const Card = () => {
             <div className="inside-left__text">Šťastné a veselé Vánoce!</div>
             <div className="inside-left__sender">Mirka</div>
           </div>
-          <img
+
+          {/* <img
             className="inside-left__logo"
             src="./assets/czechitas.svg"
             alt="Czechitas"
-          />
+          /> */}
         </div>
 
         {/* Pravá vnitřní strana. Fotky jsou v projektu zadané napevno. Klidně si je vyměň za svoje, ale zachovej jejich velikost a poměr stran. CSS není na jinou variantu
 					připravené a přání by mohlo vypadat divně. */}
         <div className="inside-right">
           <div className="photo photo1">
-            <img src="./assets/photos/photo1.jpg" />
+            <img src="./assets/photos/photo7.jpg" />
           </div>
           <div className="photo photo2">
-            <img src="./assets/photos/photo2.jpg" />
+            <img src="./assets/photos/photo6.jpg" />
           </div>
           <div className="photo photo3">
-            <img src="./assets/photos/photo3.jpg" />
+            <img src="./assets/photos/photo2.jpg" />
           </div>
           <div className="photo photo4">
-            <img src="./assets/photos/photo4.jpg" />
+            <img src="./assets/photos/photo8.jpg" />
           </div>
         </div>
       </div>
